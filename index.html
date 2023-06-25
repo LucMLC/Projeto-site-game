@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <title>Gamer</title>
+</head>
+
+<body>
+
+    <div>
+    <header>
+        <img src="./Discos do Zeca 2.png">
+    </header>
+
+    <section>
+        <h1>
+            Oque você encontra aqui
+        </h1>
+
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed aliquam laboriosam quaerat qui ipsam impedit
+            libero
+            cupiditate, nesciunt nihil ut mollitia consequatur excepturi sequi deserunt in quos. Exercitationem, hic
+            assumenda.
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's
+            standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+            make
+            a type specimen book. It has survived not only five centuries, but also the leap into electronic
+            typesetting,
+            remaining essentially unchanged.
+           
+
+        </p>
+
+        <footer>
+            <button class="entre-em-contato" onclick="abrir ()"> Entre em contato</button>
+            <!-- Aqui esta colada a função abrir do js, ou seja, ao clicar uma vez (on click) irá abrir-->
+        </footer>
+    </section>
+
+</div>
+
+    <form action="https://formsubmit.co/lucas.docanto08@gmail.com" method="POST">
+        <input type="text" name="name" required placeholder="Nome">
+        <input type="mail" name="email" required placeholder="Email">
+        <textarea placeholder="Tire sua dúvida aqui"></textarea>
+        <!--- placeholder serviu para deixar o texto dentro da caixa textarea-->
+        <button type="submit" class="enviar">Enviar</button>
+        <!--- Botão do tipo submit envia todos os arquivs que estão dentro de um formulario, ou seja, tudo que for preencido dentro do formulario la no site -->
+        <button type="button" class="voltar" onclick="fechar()"> Voltar</button> <!-- Botão do tipo type envia -->
+    </form>
+
+    <script>
+        function abrir() {
+            document.querySelector("form").style.opacity = 1
+            document.querySelector("div").style.opacity = 0.3}
+            
+            function fechar() {
+                document.querySelector("form").style.opacity = 0
+                document.querySelector("div").style.opacity = 1
+                
+            }
+        
+
+    </script>
+    <!-- function é a mesma coisa que função, ou seja é uma função
+logo apos do um nome a função que é ABRIR fecho com os parenteses () e abro as chaves { que dentro ficara oque essa função ira fazer }
+  console.log ("Deu bom ") serve para testar se vai funcionar ao clicar no botão, ai e so inpecionar e fazer o teste 
+*****PARA CHAMAR O HTML DENTRO DA TAG JS, SE USA DOCUMENT***
+Então atraves do document estou indo la no html, então queryselector que é a seleção da tag e escolhi a tag form
+então fui escolher o estilo atraves do style e logo apos o parametro opacity.
+A MESMA COISA FIZ NO BOTÃO VOLTAR.
+-->
+</body>
+
+</html>
