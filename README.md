@@ -6,6 +6,5 @@
 <br>
 <p> Este projeto é baseado em locadora de games, na qual é possivel entrar em contato com o admin atras do botão "Entre em contato", preenchendo o formulário com seu e-mail e sua dúvida. </p>
 <a href="https://lucmlc.github.io/Projeto-site-game/">Site publicado</a>
-<a><img src="![image](https://github.com/LucMLC/Projeto-site-game/assets/135182116/3ce016b3-c9c9-4812-88c7-d8b73fdb9267)
-> </a>
+<a><img src="https://github.com/LucMLC/Projeto-site-game/assets/135182116/3ce016b3-c9c9-4812-88c7-d8b73fdb9267 alt="img-demonstração-do-site"></a>
 <br>
